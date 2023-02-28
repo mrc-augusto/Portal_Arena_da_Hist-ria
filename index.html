@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="main.css">
+    <title>Arena da História</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav id="menu">
+                <h1 class="logo"><a href="#about">Arena da História</a></h1>
+                <ul>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#articles">Artigos</a></li>
+                    <li><a href="#subscription">Inscreva-se/Entrar</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="about">
+                <div class="text-container">
+                    <h2>Descubra uma Nova Maneira de Estudar a História</h2>
+                    <p>Conheça a História de uma forma que você nunca viu antes! Inscreva-se e tenha acesso a videoaulas, artigos e exercícios prontinhos para você!</p>
+                    <button type="button"><a href="#subscription">Inscreva-se</a></button>
+                </div>
+                <div class="img_container">
+                    <figure>
+                        <img src="img/coliseum.jpg" alt="">
+                        <figcaption>Coliseu</figcaption>
+                    </figure>
+                </div>
+            </section>
+            <hr>
+
+            <section id="articles">
+                <h2><a href="#">Artigos</a></h2>
+                <div class="articles-box">
+
+                    <div class="articles-items">
+                        <figure>
+                            <img src="./img/alexander.jpg" alt="Alexandre, O Grande">
+                        </figure>
+                        <div class="articles-text">
+                            <h3>10 Fatos Sobre Alexandre, O Grande</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, reiciendis.</p>
+                            <a href="#">Continue lendo...</a>
+                        </div>
+                    </div>
+                    <div class="articles-items">
+                        <figure>
+                            <img src="./img/henry.jpg" alt="Henrique VIII">
+                        </figure>
+                        <div class="articles-text">
+                            <h3>As 6 esposas de Henrique VIII</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam, adipisci!</p>
+                            <a href="#">Continue lendo...</a>
+                        </div>
+                    </div>
+                    <div class="articles-items">
+                        <figure>
+                            <img src="./img/hitler.avif" alt="">
+                        </figure>
+                        <div class="articles-text">
+                            <h3>10 Curiosidades sobre Hitler</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta, quas.</p>
+                            <a href="#">Continue lendo...</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr>
+
+            <section id="subscription">
+                <h2>Entrar/Cadastre-se</h2>
+                <div class="subscription-container">
+                    <div class="sign-up">
+                        <form>
+                            <h3>Cadastrar-se</h3>
+                            <div>
+                                <label for="nome">Nome</label>
+                                <input type="text" id="nome" placeholder="Escreva seu nome" required>
+                            </div>
+                            <div>
+                                <label for="nickname">Nome de Usuário</label>
+                                <input type="text" id="nickname" placeholder="Escreva um nome de usuário" required>
+                            </div>
+                            <div>
+                                <label for="email">E-mail</label>
+                                <input type="email" id="email" placeholder="seu@email.com" required>
+                            </div>
+                            <div>
+                                <label for="password">Senha</label>
+                                <input type="password" id="password" placeholder="Escreva uma senha" required>
+                            </div>
+                            <button type="submit">Cadastrar</button>
+                        </form>
+                    </div>
+                    <div class="sign-in">
+                        <form>
+                            <h3>Entrar</h3>
+                            <div>
+                                <label for="nome">Nome</label>
+                                <input id="nome" type="text" placeholder="Escreva seu nome" required >
+                            </div>
+                            <div>
+                                <label for="password">Senha</label>
+                                <input type="password" id="password" placeholder="Escreva sua senha" required>
+                            </div>
+                                <button type="submit">Entrar</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <hr>
+        </main>
+
+        <footer>
+            <div class="footer">
+                <h1 class="logo"><a href="#about">Arena da História</a></h1>
+                <div>
+                    <h3>História</h3>
+                    <ul>
+                        <li><a href="">Pré-História</a></li>
+                    <li><a href="">História Antiga</a></li>
+                    <li><a href="">História Medieval</a></li>
+                    <li><a href="">História Moderna</a></li>
+                    <li><a href="">História Contemporânea</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Mitologia</h3>
+                    <ul>
+                        <li><a href="">Mitologia Grega</a></li>
+                        <li><a href="">Mitologia Romana</a></li>
+                        <li><a href="">Mitologia Egípcia</a></li>
+                        <li><a href="">Mitologia Nórdica</a></li>
+                        <li><a href="">Mitologia Oriental</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Cursos</h3>
+                    <ul>
+                        <li><a href="">Grécia Antiga</a></li>
+                        <li><a href="">Roma Antiga</a></li>
+                        <li><a href="">Mitologia Grega</a></li>
+                        <li><a href="">Mitologia Romana</a></li>
+                        <li><a href="">Mitologia Nórdica</a></li>
+                        <li><a href="">Idade Média</a></li>
+                        <li><a href="">Revolução Francesa</a></li>
+                        <li><a href="">História do Brasil Imperial</a></li>
+                        <li><a href="">História do Brasil República</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 >Redes Sociais</h3>
+                    <div class="social-links">
+                        <a href=""><img src="./img/logo_facebook.png" alt=""></a>
+                        <a href=""><img src="./img/logo_instagram.png" alt=""></a>
+                        <a href=""><img src="./img/logo_youtube.png" alt=""></a>
+                    </div>
+                    <div>
+                        <h3>Endereço</h3>
+                        <p>
+                            Rua do Saber, nº755, Conhecimento <br>
+                            Esparta - Antiga Grécia
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <p>&copy Maurício Augusto</p>
+        </footer>
+    </div>
+</body>
+</html>
